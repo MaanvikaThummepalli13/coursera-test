@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset = "utf-8">
+<meta name = "viewport" content="width=device-width, intial-scale=1"> 
+<title> assignment-2</title>
+<style>
+*{
+box-sizing: border-box;
+}
+body{
+background-color: white;
+}
+h1{
+	text-align: center;
+	font-family: Helvetica;
+	font-weight: bold;
+	font-size: 175%;
+}
+section{
+	position: relative;
+	padding: 15px;
+	width: 100%;
+}
+p{
+	position: relative;
+	clear: right;
+}
+div{
+	position: relative;
+	background-color: gray;
+	border: 3px solid black;
+	width: 100%;
+	margin-ledt: auto;
+	margin-right: auto;
+	margin-bottom: auto;
+}
+	
+.sub1 {
+	float: right;
+	color: black;
+	width: 100px;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: LightPink;
+}
+.sub2 {
+	float: right;
+	color: white;
+	width: 100px;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: IndianRed;
+}
+.sub3 {
+	color: black;
+	float: right;
+	width: 100px;
+	padding: 5px;
+	margin: 0px;
+	border: 1px solid black;
+	text-align: center;
+	font-size: 125%;
+	font-weight: bold;
+	background-color: PaleGoldenRod;
+}
+		
+.content {
+	padding: 5px;
+	border: none;
+	background-color: gray;
+	font-family: Helvetica;
+	color: black;
+	margin: 0px;
+	height: 150px;
+	overflow: auto;
+	width: 90%;
+}
+	
+
+.row{
+width: 100%;
+color: white; 
+}
+
+@media(min-width: 991px){
+
+.col-ld-4{
+width:33.33%;
+float:left;
+}
+}
+
+@media(min-width: 768px) and (max-width: 991px) {
+	 
+.col-md-6{
+width:50%;
+float:left;
+margin-left: auto;
+margin-right: auto;
+}
+
+.col-md-12{
+width:100%;
+float:left;
+margin-left: auto;
+margin-right: auto;
+}
+}
+
+@media(max-width: 767px){
+
+.col-sd-12{
+width:100%;
+float:left;
+}
+}
+
+</style>
+</head>
+
+<body>
+<h1> Our Menu </h1>
+
+	<section class = "col-ld-4 col-md-6 col-sd-12">
+<div>
+<p class="sub1">chicken</p>
+<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div> 
+</section>
+	<section class = "col-ld-4 col-md-6 col-sd-12">
+<div>
+<p class="sub2">Beef</p>
+<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</section>
+	<section class = "col-ld-4 col-md-12 col-sd-12">
+<div>
+<p class="sub3">Sushi</p>
+<p class="content">lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</section>
+
+</body>
+</html>
